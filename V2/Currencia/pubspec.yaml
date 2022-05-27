@@ -30,7 +30,6 @@ dependencies:
 
   dio: ^4.0.0
   syncfusion_flutter_charts: ^19.2.51
-  highlight_text: ^1.3.0
 
 flutter_icons:
   android: true

@@ -4,7 +4,6 @@ import 'package:currency_converter_app/widget/footer_widget.dart';
 import 'package:currency_converter_app/widget/menu_drawer.dart';
 import 'package:currency_converter_app/widget/top_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:highlight_text/highlight_text.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -48,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
               title: Text(
                 'CURRENCIA',
                 style: TextStyle(
-                  color: Color.fromARGB(255, 255, 233, 160),
+                  color: Color.fromARGB(255, 255, 133, 160),
                   fontSize: 30,
                   fontFamily: 'Roboto-Light',
                   letterSpacing: 1,
