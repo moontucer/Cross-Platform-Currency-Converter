@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class ChartWidget extends StatelessWidget {
-  const ChartWidget({Key? key, required this.fromCurrency, required this.chartData}) : super(key: key);
+  const ChartWidget(
+      {Key? key, required this.fromCurrency, required this.chartData})
+      : super(key: key);
 
   final String fromCurrency;
   final List<Indicator> chartData;
@@ -21,12 +23,16 @@ class ChartWidget extends StatelessWidget {
               child: SfCartesianChart(
                 primaryXAxis: CategoryAxis(),
                 title: ChartTitle(text: 'USD/$fromCurrency Granularity: 1d'),
-                legend: !Responsive.isSmallScreen(context) ? Legend(isVisible: true) : Legend(isVisible: false),
+                legend: !Responsive.isSmallScreen(context)
+                    ? Legend(isVisible: true)
+                    : Legend(isVisible: false),
                 tooltipBehavior: TooltipBehavior(enable: true),
                 series: <ChartSeries<Indicator, String>>[
                   LineSeries<Indicator, String>(
                     dataSource: chartData,
-                    xValueMapper: (Indicator ind, _) => ind.timestamp.toString(),
+                    color: Color.fromARGB(255, 146, 78, 90),
+                    xValueMapper: (Indicator ind, _) =>
+                        ind.timestamp.toString(),
                     yValueMapper: (Indicator ind, _) => ind.adjclose,
                     name: 'USD/$fromCurrency',
                     dataLabelSettings: DataLabelSettings(isVisible: false),

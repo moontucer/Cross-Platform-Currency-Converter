@@ -42,13 +42,13 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: Responsive.isSmallScreen(context)
           ? AppBar(
               backgroundColor:
-                  Color.fromARGB(255, 59, 3, 15).withOpacity(_opacity),
+                  Color.fromARGB(255, 90, 9, 25).withOpacity(_opacity),
               elevation: 0,
               title: Text(
                 'CURRENCIA',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 133, 160),
-                  fontSize: 30,
+                  fontSize: 32,
                   fontFamily: 'Roboto-Light',
                   letterSpacing: 1,
                 ),
@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: _screenSize.height * 0.16,
                     width: _screenSize.width,
                     child: Image.asset(
-                      'assets/images/bg2.png',
+                      'assets/images/bg20.jpeg',
                       fit: BoxFit.cover,
                     ),
                   ),

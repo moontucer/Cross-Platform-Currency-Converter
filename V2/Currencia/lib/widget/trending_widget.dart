@@ -111,7 +111,8 @@ class TrendingWidget extends StatelessWidget {
                                 Text(
                                   '${d.marketPrice!.fmt}',
                                   style: TextStyle(
-                                    color: Colors.green,
+                                    color: Color.fromARGB(255, 32, 170, 106),
+                                    // color: Colors.green,
                                   ),
                                 ),
                               ),
@@ -119,7 +120,7 @@ class TrendingWidget extends StatelessWidget {
                                 Text(
                                   '${d.marketChange!.fmt}',
                                   style: TextStyle(
-                                    color: Colors.green,
+                                    color: Color.fromARGB(255, 165, 41, 66),
                                   ),
                                 ),
                               ),
@@ -127,7 +128,7 @@ class TrendingWidget extends StatelessWidget {
                                 Text(
                                   '${d.marketChangePercent!.fmt}',
                                   style: TextStyle(
-                                    color: Colors.green,
+                                    color: Color.fromARGB(255, 255, 0, 0),
                                   ),
                                 ),
                               ),

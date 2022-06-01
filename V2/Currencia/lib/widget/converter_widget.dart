@@ -139,6 +139,10 @@ class _ConverterWidgetState extends State<ConverterWidget> {
                                 toCurrencyInput(_screenSize, true),
                                 SizedBox(height: 16),
                                 ElevatedButton(
+                                  style: ElevatedButton.styleFrom(
+                                      primary: Color.fromARGB(
+                                          255, 90, 9, 25) // Background color
+                                      ),
                                   onPressed: () {
                                     setState(() {
                                       getExchangeRate = CurrencyService()
