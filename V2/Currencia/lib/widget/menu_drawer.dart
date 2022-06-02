@@ -16,7 +16,7 @@ class MenuDrawer extends StatelessWidget {
                     Container(
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: ExactAssetImage('assets/images/logo.jpg'),
+                          image: ExactAssetImage('assets/images/flogo.jpeg'),
                           fit: BoxFit.cover,
                         ),
                       ),
