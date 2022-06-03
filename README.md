@@ -6,4 +6,4 @@ And then, there's V2, a much better and more beautiful user interface linked to 
 
 I aim to upgrade it to a V3 where there's pretty Login and Singup with the backend using Firebase.
 
-Moreover, I created the brand's logo, its UML use case along with its MCD Diagram.
+Moreover, I created the brand's logo, its UML use case along with its MCD Diagram, and SRS document.
