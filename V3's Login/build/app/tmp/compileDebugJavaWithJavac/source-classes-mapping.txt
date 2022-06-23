@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/email_password_login/BuildConfig.java
+ com.example.email_password_login.BuildConfig
