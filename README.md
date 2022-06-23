@@ -9,5 +9,7 @@ I aim to upgrade it to a V3 where there's pretty Login and Singup with the backe
 Moreover, I created the app's brand slogan, logo, wireframe, UML Use Case, MCD Diagram, Gantt Chart, Sequence Diagram and SRS Document.
 
 You can find the video demo attached.
-Here's the description on a LinkedIn post: https://bit.ly/3QTtgY7
+
+Here's the description on a LinkedIn post: https://bit.ly/3QTtgY7.
+
 Also, here's the product presentation on Canva: https://bit.ly/3OD3rJx
